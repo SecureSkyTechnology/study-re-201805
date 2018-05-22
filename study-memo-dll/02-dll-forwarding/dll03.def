@@ -1,0 +1,4 @@
+LIBRARY dll03
+EXPORTS
+    funcA1
+    funcB1 = dll02.funcB2

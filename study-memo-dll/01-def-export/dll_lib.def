@@ -1,0 +1,9 @@
+LIBRARY dll_lib
+EXPORTS
+    func1
+    func2 @5
+    func3 @6 NONAME
+    func4 @7 PRIVATE
+    func5 @8 NONAME PRIVATE
+    funcX=func6
+    funcY=func7 PRIVATE
